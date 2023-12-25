@@ -1,0 +1,47 @@
+(
+  define
+  (problem instance-5)
+  (:domain blocksworld-3ops)
+  (:objects b6 b11 b4 b8 b2 b10 b12 b15 b1 b7 b9 b3 b14 b13 b5)
+  (
+    :init
+    (on b14 b2)
+    (on b11 b8)
+    (clear b1)
+    (on b1 b5)
+    (on b13 b6)
+    (on b4 b12)
+    (on-table b10)
+    (on-table b3)
+    (on b8 b3)
+    (clear b15)
+    (on b9 b7)
+    (on b2 b10)
+    (on-table b7)
+    (on b15 b4)
+    (clear b14)
+    (on-table b5)
+    (on-table b12)
+    (clear b9)
+    (on b6 b11)
+    (clear b13)
+    (injected-0)
+  )
+  (
+    :goal
+    (
+      and
+      (on b3 b12)
+      (on b4 b14)
+      (on b5 b7)
+      (on b6 b2)
+      (on b7 b15)
+      (on b8 b3)
+      (on b10 b6)
+      (on b13 b4)
+      (on b14 b9)
+      (on b15 b1)
+      (injected-0)
+    )
+  )
+)
